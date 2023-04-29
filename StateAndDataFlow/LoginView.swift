@@ -13,21 +13,24 @@ struct LoginView: View {
     @EnvironmentObject private var userSettings: UserSettings
     
     var body: some View {
-        VStack {
-            TextField("Enter your name", text: $name)
-                .multilineTextAlignment(.center)
-                .onChange(of: name) { characterCount = $0.count }
-            Button(action: login) {
-                HStack {
-                    Image(systemName: "checkmark.circle")
-                    Text("Ok")
+        ZStack {
+            VStack {
+                TextField("Enter your name", text: $name)
+                    .multilineTextAlignment(.center)
+                    .onChange(of: name) { characterCount = $0.count }
+                Button(action: login) {
+                    HStack {
+                        Image(systemName: "checkmark.circle")
+                        Text("Ok")
+                    }
                 }
+                .disabled(characterCount < 3)
             }
-            .disabled(characterCount < 3)
             CharactersCountView(
                 count: $characterCount,
                 color: characterCount < 3 ? .red : .green
             )
+            .padding(EdgeInsets(top: 0, leading: 250, bottom: 26, trailing: 0))
         }
     }
     

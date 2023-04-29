@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B753AC029FD4225007F6DFF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B753ABF29FD4225007F6DFF /* ButtonView.swift */; };
 		A8B1C6E029F9881C00967803 /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B1C6DF29F9881C00967803 /* StateAndDataFlowApp.swift */; };
 		A8B1C6E229F9881C00967803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B1C6E129F9881C00967803 /* ContentView.swift */; };
 		A8B1C6E429F9881D00967803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B1C6E329F9881D00967803 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B753ABF29FD4225007F6DFF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		A8B1C6DC29F9881C00967803 /* StateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B1C6DF29F9881C00967803 /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
 		A8B1C6E129F9881C00967803 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A8B1C6F129F9A89300967803 /* UserSettings.swift */,
 				A8B1C6E329F9881D00967803 /* Assets.xcassets */,
 				A8B1C6E529F9881D00967803 /* Preview Content */,
+				9B753ABF29FD4225007F6DFF /* ButtonView.swift */,
 			);
 			path = StateAndDataFlow;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				A8B1C6F029F9A7B200967803 /* LoginView.swift in Sources */,
 				A8B1C6F229F9A89300967803 /* UserSettings.swift in Sources */,
 				A8B1C6E029F9881C00967803 /* StateAndDataFlowApp.swift in Sources */,
+				9B753AC029FD4225007F6DFF /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
